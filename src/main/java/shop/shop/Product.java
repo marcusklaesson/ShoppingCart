@@ -1,4 +1,4 @@
-package shop;
+package shop.shop;
 
 import org.jetbrains.annotations.NotNull;
 

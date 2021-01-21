@@ -22,6 +22,7 @@ class UndoFirstThing implements Command {
     }
 }
 
+
 public class CommandExample {
 
     static Stack<Command> undoStack = new Stack<>();
@@ -42,6 +43,7 @@ public class CommandExample {
 
         undoStack.pop().execute();
         undoStack.pop().execute();
+
     }
 
     private static void doFirstThing() {
